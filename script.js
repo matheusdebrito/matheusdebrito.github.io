@@ -1,7 +1,7 @@
 //alert("Em Desenvolvimento !");
 
 //funções para ao clickar no menu ir para o link de forma suave
-const menuItems = document.querySelectorAll("#nav a");
+const menuItems = document.querySelectorAll("#header a");
 
 menuItems.forEach(item => {
     item.addEventListener("click", scroollToIdOnClick);
@@ -26,3 +26,15 @@ function scrollToPosition(to){
 }
 
 //fim da função
+
+//menu mobile
+
+const btnMobile = document.getElementById("btn-mobile");
+function toggleMenu() {
+    const nav = document.getElementById("nav");
+    nav.classList.toggle("active");
+}
+
+btnMobile.addEventListener("click", toggleMenu);
+
+//fim menu mobile

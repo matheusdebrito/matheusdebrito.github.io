@@ -112,6 +112,9 @@ body{
 
 #footer{
     width: 100%;
+    height: 20vh;
+    background: white;
+    color: black;
 }
 
 
@@ -120,4 +123,5 @@ body{
     #logo a{margin: 5px;}
     #lista-nav ul{ display: none;}
     #conteudo-main{ height: 30vh;}
+    #footer{height: 10vh;}
 }

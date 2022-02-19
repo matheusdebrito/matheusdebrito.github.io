@@ -180,7 +180,7 @@ ul{
         content: "";
         display: block;
         margin-top: 5px;
-        /* transition: .3s; */
+        transition: .2s;
         position: relative;
     }
 

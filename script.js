@@ -30,11 +30,15 @@ function scrollToPosition(to){
 //menu mobile
 
 const btnMobile = document.getElementById("btn-mobile");
-function toggleMenu() {
+
+
+function toggleMenu(event) {
+    if (event.type === "toutchstart") event.preventDefault;
     const nav = document.getElementById("nav");
     nav.classList.toggle("active");
 }
 
 btnMobile.addEventListener("click", toggleMenu);
+btnMobile.addEventListener("toutchstart", toggleMenu);
 
 //fim menu mobile

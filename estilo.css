@@ -80,6 +80,11 @@ body{
     align-items: center;
 }
 
+#p{
+    width: 50%;
+    text-align: center;
+}
+
 #video{
     width: 100%;
     z-index: 0;

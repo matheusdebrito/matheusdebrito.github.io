@@ -1,7 +1,7 @@
 * {box-sizing: border-box; margin: 0; padding: 0;}
 
 body{
-    background-color:#1C1C1C;
+    background-color: black;
     width: 100%;
     color: white;
     font-family: sans-serif;
@@ -13,7 +13,7 @@ body{
     height: 9vh;
     position: fixed;
     z-index: 999;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,1);
 }
 
 #nav{
@@ -31,6 +31,7 @@ body{
     color: white;
     transition: .2s;
     padding: 10px;
+    border-radius: 7px;
 }
 
 .link:hover{
@@ -80,7 +81,7 @@ body{
     align-items: center;
 }
 
-#p{
+#fortuna{
     width: 50%;
     text-align: center;
 }
@@ -89,3 +90,34 @@ body{
     width: 100%;
     z-index: 0;
 }  
+
+.conteudo-2{
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-titulo{
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+.conteudo-texto{
+    width: 70%;
+    text-align: justify;
+    line-height: 1.7rem;
+}
+
+#footer{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 600px){
+    #header{height: 5vh;}
+    #logo a{margin: 5px;}
+    #lista-nav ul{ display: none;}
+    #conteudo-main{ height: 30vh;}
+}

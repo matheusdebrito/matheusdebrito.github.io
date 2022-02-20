@@ -24,11 +24,9 @@ function scrollToPosition(to){
         behavior: "smooth"
     });   
 }
-
 //fim da função
 
 //menu mobile
-
 const btnMobile = document.getElementById("btn-mobile");
 
 
@@ -40,5 +38,4 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener("click", toggleMenu);
 btnMobile.addEventListener("toutchstart", toggleMenu);
-
 //fim menu mobile

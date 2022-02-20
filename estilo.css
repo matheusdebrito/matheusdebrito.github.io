@@ -158,7 +158,7 @@ ul{
         width: 100%;
         height: 0px;
         transition: .4s;
-        top: 41px;
+        top: 35px;
         right: 0 ;
         visibility: hidden;
         background: rgba(0,0,0,0.7);
@@ -168,6 +168,7 @@ ul{
     #nav.active #menu{
         height: 110px;
         visibility: visible;
+        gap: 0;
     }
 
     #menu li{

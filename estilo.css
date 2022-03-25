@@ -71,12 +71,16 @@ ul{
 .conteudo-texto{margin: 15px;}
 
 #conteudo-1{
-    width: 100%;
+    padding: 50px;
     text-align: center;
+    border: solid 5px white;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.7);
 }
 
 #conteudo-1 h1{
     font-size: 3rem;
+    color: white;
 }
 
 #foto{width: 100px; border-radius: 50%;}
@@ -146,8 +150,15 @@ ul{
     .icone{width: 40%;}
     .conteudo-texto{text-align: center;}
 
+    #conteudo-1 {
+        margin-top: 50px;
+        padding: 5px;
+        border: solid 2px white;
+    }
+
     #conteudo-1 h1{
         font-size: 1.7rem;
+        
     }
 
     #foto{width: 90px;}

@@ -109,6 +109,54 @@ ul{
     line-height: 1.7rem;
 }
 
+#projetos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.projeto{
+    position: relative;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    width: 40%;
+    word-wrap: break-word;
+    background: black;
+    color: white;
+    box-shadow: darkred 0px 0px 10px 1px;
+    line-height: 1.5rem;
+    transition: .5s;
+}
+
+.projeto:hover{
+    box-shadow: red 0px 0px 15px 2px;
+}
+
+.projeto a{
+    text-decoration: none;
+    color: white;
+}
+
+.imgProjeto{
+    width: 100%;
+    /* height: 250px; */
+}
+
+.tituloProjeto{
+    width: 100%;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.pProjeto{
+    width: 100%;
+    text-align: left;
+}
+
 #footer{
     width: 100%;
     height: 20vh;
@@ -159,6 +207,18 @@ ul{
     #conteudo-1 h1{
         font-size: 1.7rem;
         
+    }
+
+    #projetos{
+        flex-direction: column;
+        height: 350px;
+        overflow: scroll;
+        justify-content: flex-start;
+        /* para funcionar a rolagem igual netflix precisei colocar flex-direciton como column, flex-wrap e definir o height da div em px e justify-content: flex-start;*/
+    }
+
+    .projeto{
+        width: 70%;
     }
 
     #foto{width: 90px;}

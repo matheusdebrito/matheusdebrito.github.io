@@ -226,7 +226,7 @@ ul{
 
     #projetos{
         flex-direction: column;
-        height: 350px;
+        height: 370px;
         overflow: scroll;
         justify-content: flex-start;
         /* para funcionar a rolagem igual netflix precisei colocar flex-direciton como column, flex-wrap e definir o height da div em px e justify-content: flex-start;*/
